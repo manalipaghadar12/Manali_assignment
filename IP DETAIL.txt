@@ -1,0 +1,99 @@
+ip 
+ip address
+
+N :- Network bit :- 11111111		192.168.1.1
+H :- Host bit :- 00000000 
+
+ipv4 :- local person, less secure| Decimal:- 165.12.123.2 
+				 | 32 bit | N.N.N.N
+ipv6 :- Org., more secure | Hexa-decimal :- 
+			   fe80:0:0:0:65e4:b2fb:2d00:47f7 | 128 bit
+				
+MAC address:- 48 bit	40-8D-5C-41-FA-4E
+	
+total range .:- 0 <-> 255
+NETWORK ip:- 0.0.0.0
+Broadcast iP :- 255.255.255.255
+
+ip classes	
+Class A :-	 0 <-> 127 	N.H.H.H	/8	255.0.0.0          	0.0.0.0 , 127.255.255.255
+Class B :- 	128 <-> 191 	N.N.H.H	/16	255.255.0.0        	128.0.0.0, 191.255.255.255
+Class C :- 	192 <-> 223 	N.N.N.H	/24	255.255.255.0    	192.0.0.0, 224.255.255.255
+Class D :	224 <-> 239
+Class E :- 	240 <-> 255
+
+				N :- 8 bit : 1 octect :- 11111111
+				H :- 0 bit  :	:- 00000000 (0)
+
+SUBNETTING :- 192.168.1.1
+
+i) FLSM(FIX LENGTH SUBNET MASK)
+ii) VLSM(VARIABLE LENGTH SUBNET MASK)
+
+
+
+
+Decimal :- 0 to Infinity			192.168.10.1
+Binary :- 0 or 1 				0:- Off bit		1:- on bit
+Hexa-Decimal :- Num. + alpha.			40-8D-5C-41-FA-4E
+
+1
+2
+4
+8
+16
+32
+64
+128
+Decimal				Binary
+	128	64	32	16	8	4	2	1
+1	0	0	0	0	0	0	0	1
+5	0	0	0	0	0	1	0	1
+15	0	0	0	0	1	1	1	1
+63	0	0	1	1	1	1	1	1
+254	1	1	1	1	1	1	1	0
+
+	    0-15
+Decimal		Hexadecimal
+0		0
+1		1
+2		2
+9		9
+10		A
+11		B
+12		C
+13		D
+14		E
+15		F
+
+
+
+
+
+class A	0 -127		2,147,483,648	
+class B	128-191		1,073,741,824
+class C	192-224		536,870,912
+
+
+152.2.3.0
+
+172
+79
+849
+528
+3690
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
